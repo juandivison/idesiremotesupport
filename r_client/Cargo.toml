@@ -1,0 +1,9 @@
+[package]
+name = "r_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] } # For asynchronous I/O and net
+log = "0.4"
+env_logger = "0.9"
